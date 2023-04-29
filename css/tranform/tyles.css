@@ -1,0 +1,8 @@
+.box{
+background-color:aqua ;
+transform: translate(20px,200px);
+/* another method */
+transform: rotate(45deg);
+
+
+}

@@ -1,0 +1,28 @@
+.container{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    display:flex;
+    /* justify stsatements used in columnwise main axis, align axis used in row wise */
+     /* flex-direction: column-reverse;  */
+    /* flex-wrap: wrap;   /* width will remain intact , default value is no wrap (variable size hi rahega) */
+    /* justify-content:flex-start;
+    justify-content: flex-end; */ 
+    justify-content: center;
+    /* justify-content:space-between ; */
+/*     
+ 
+    align-items:flex-start;
+    align-items:flex-end;put element at end of row */
+    align-items: center;
+
+    /* align-items: stretch;
+     align-items: baseline;  will change if one has different box size */    
+   gap: 10px;
+   align-content: flex-end;
+}
+.box{
+    border: 1px solid rgb(200, 37, 37) ;
+    background-color: aqua;
+    width: 400px;
+}

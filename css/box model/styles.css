@@ -1,0 +1,16 @@
+.des{
+max-height: 100px;
+border: 1px solid black;
+overflow: scroll;
+}
+.minh{
+border: 1px solid black;
+min-height: 100px;
+margin: 10px;
+}
+.using_auto{
+    border: 1px solid black;
+    overflow: auto;
+    margin: 10px;
+}
+/* rest of the content outside block will overflow , in order to handle overflow we use overflow (scroll)*/

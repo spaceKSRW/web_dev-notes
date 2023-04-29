@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: brown;
+  height: 500px;
+
+  border: 10px solid black;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(5,1fr);
+  gap: 10px;
+
+}
+
+.box{
+    background-color: aqua;
+    border: 2px solid black;
+    /* width: 80px; */
+    /* height: 40px; */
+}
+/* #b1{
+    grid-column-start:1;
+    grid-column-end: 3;
+}  */
+#b3{
+    grid-row-start: 4;
+    grid-row-end: 6;
+}

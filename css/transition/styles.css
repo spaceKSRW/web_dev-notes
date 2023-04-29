@@ -1,0 +1,47 @@
+ .container{
+    height: 1200px;
+    width: 1200px;
+    background-color: green;
+    border: 3px solid green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} 
+#happy{
+    position: absolute;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: darkblue;
+}
+.box{
+    height: 550px;
+    width: 950px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    background-image: url("happy.jpg");
+    background-size: cover;
+    
+}
+#sad{
+    position: absolute;
+    opacity: 100%;
+    font-size: 60px;
+    text-align: left;
+
+}
+.box:hover{
+    background-color:blue;
+    filter: grayscale(100%); 
+    transition: 1.6s; 
+    background-image: url("sad.jpg");
+    
+} 
+/* #happy:hover{
+
+}
+#sad:hover {
+ opacity: 100%;
+} */

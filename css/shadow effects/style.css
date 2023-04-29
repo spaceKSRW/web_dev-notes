@@ -1,0 +1,15 @@
+h1{
+    text-shadow: 3px 3px 3px red;
+    text-shadow: 3px 6px 3px green,3px 9px 3px red,3px 12px 3px blue;
+}
+ /* first px for horizontal distance
+ second px for vertical distance
+ third px for transparency effect */
+.boss{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 40px brown;
+    color:teal;
+    text-shadow:3px 3px 3px ;
+}
