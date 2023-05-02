@@ -35,6 +35,6 @@ order(2000, work, 0)
   .catch(() => {
     console.log("customer left");
   })
-  .finally(() => {
+  .finally(() => {// finally always executes
     console.log("end of day!!");
   });
